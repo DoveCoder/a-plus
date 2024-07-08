@@ -1,6 +1,6 @@
 import { Class } from "../../payload/payload-types";
-import { GRAPHQL_API_URL } from "./shared";
 import { CLASSES } from "../_graphql/classes";
+import { GRAPHQL_API_URL } from "./shared";
 
 export const fetchClasses = async (): Promise<Class[]> => {
   const docs: Class[] = await fetch(`${GRAPHQL_API_URL}/api/graphql`, {
