@@ -1,0 +1,12 @@
+@import '../../_css/queries.scss';
+
+.heading {
+  margin: 3rem 3rem;
+  text-shadow: 2px 4px 10px yellow;
+  font-variant: small-caps;
+  letter-spacing: 2px;
+
+  @include mid-break {
+    text-align: center;
+  }
+}
