@@ -1,10 +1,9 @@
 import type { CollectionConfig } from 'payload/types'
 
 import { admins } from '../../access/admins'
-import { adminsOrPublished } from '../../access/adminsOrPublished'
 import { hero } from '../../fields/hero'
 import { slugField } from '../../fields/slug'
-import { populatePublishedAt } from "../../hooks/populatePublishedAt";
+import { populatePublishedAt } from '../../hooks/populatePublishedAt'
 
 const Classes: CollectionConfig = {
   slug: 'classes',
